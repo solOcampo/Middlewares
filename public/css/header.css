@@ -1,0 +1,42 @@
+header{
+   height: 150px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+   background-color: black;
+}
+header .logo{
+    height: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .logo img{
+    width: 150px;
+}
+header nav{
+    width: 50%;
+}
+header nav ul li {
+   width: 50px;
+   padding: 10px;
+}
+header nav ul li a{
+    text-transform: uppercase;
+    color: white;
+    
+}
+header nav ul li a:hover{
+  font-size: 20px;
+    color: rgb(255, 196, 0);
+    transition: all .5s;
+}
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
